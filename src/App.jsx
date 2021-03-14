@@ -66,19 +66,17 @@ class App extends React.Component {
         />
       );
     }
-
     /* Change below to render students*/
-
-    /*if (this.state.buttonClicked === "students") {
+    if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
-          placeholder="Add Assignment..." 
-          currList={this.state.assignments}
+          placeholder="Add student..." 
+          currList={this.state.students}
           addFunction={this.addAssignment}
           title="Student Roster"
         />
       );
-    }*/
+    }
 
     /* Uncomment lines below to render grades*/
     /*if (this.state.buttonClicked === "grades") {
